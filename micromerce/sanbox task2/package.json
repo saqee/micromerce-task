@@ -1,0 +1,24 @@
+{
+  "name": "micromerce-task-transformation-to-positive-temporal",
+  "version": "1.0.0",
+  "description": "Baue eine Funktion, die aus Zeiteinheit und Zeitmenge ein Objekt in bestimmtem Format ausgibt.                                            ",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
